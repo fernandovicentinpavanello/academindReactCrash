@@ -1,11 +1,10 @@
-import './App.css';
+import Todo from './components/Todo';
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <h1>Hello TreviIt</h1>
-      </div>
+    <div>
+      <h1>My Todos</h1>
+      <Todo text='Learn React' />
     </div>
   );
 }
