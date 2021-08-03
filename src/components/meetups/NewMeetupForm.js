@@ -60,6 +60,4 @@ function NewMeetupForm(props) {
   )
 }
 
-
-
 export default NewMeetupForm;
